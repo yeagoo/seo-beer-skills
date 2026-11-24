@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "publisher": "SEO.Beer",
+  "batchVersion": "2026.W48",
+  "cadence": "biweekly",
+  "publishedAt": "2026-11-24",
+  "nextBatch": "2026.W50",
+  "repository": "https://github.com/yeagoo/seo-beer-skills",
+  "installCommand": "npx skills add yeagoo/seo-beer-skills",
+  "mcpEndpoint": "https://seo.beer/api/mcp",
+  "mcpManifest": "https://seo.beer/.well-known/mcp.json",
+  "skills": [
+    {
+      "slug": "technical-seo-live",
+      "version": "2026.W48",
+      "updatedAt": "2026-11-24",
+      "category": "technical-seo",
+      "tags": [
+        "Google Core Update",
+        "Structured Data",
+        "SSR",
+        "IndexNow",
+        "Spam Policy"
+      ],
+      "title": {
+        "en": "Technical SEO Live",
+        "zh": "技术 SEO 活体实践"
+      },
+      "summary": {
+        "en": "Biweekly living technical SEO playbook synced to Google Search Central doc diffs, retired schema types, rendering rules, spam FAQs, and IndexNow.",
+        "zh": "每两周同步 Google Search Central 文档变更、废弃结构化数据、SSR 渲染边界、反垃圾 FAQ 与 IndexNow 的可执行技术 SEO 技能。"
+      },
+      "urls": {
+        "en": "https://seo.beer/skills/technical-seo-live/SKILL.md",
+        "zh": "https://seo.beer/zh/skills/technical-seo-live/SKILL.md",
+        "api": "https://seo.beer/api/v1/skills/technical-seo-live"
+      },
+      "changelog": {
+        "en": {
+          "added": [
+            "Added back-button hijacking anti-spam audit rule from Google's Nov 2026 Spam Policy FAQ",
+            "Added 12 newly documented Google crawlers & Google-Agent verification checks"
+          ],
+          "updated": [
+            "Updated Search Console Data Feed validation guidance following Nov 2026 doc removal",
+            "Tightened SSR HTML-first checklist for zero-JS AI search fetchers"
+          ],
+          "deprecated": [
+            "Deprecated HowTo, SpecialAnnouncement, CourseInfo, ClaimReview & LearningVideo rich result templates"
+          ]
+        },
+        "zh": {
+          "added": [
+            "新增 Google 2026 年 11 月反垃圾 FAQ 中的后退键劫持（back-button hijacking）审查项",
+            "补充 Google 新披露的 12 类官方爬虫与 Google-Agent 验证检查"
+          ],
+          "updated": [
+            "同步 2026 年 11 月 Google 文档移除旧版 Data Feed 验证规则后的替代方案",
+            "强化面向无 JS 执行能力 AI 爬虫的首屏 SSR HTML 核查清单"
+          ],
+          "deprecated": [
+            "标记废弃 HowTo、SpecialAnnouncement、CourseInfo、ClaimReview 等已下线富结果 Schema"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "geo-ai-search",
+      "version": "2026.W48",
+      "updatedAt": "2026-11-24",
+      "category": "geo",
+      "tags": [
+        "GEO",
+        "AI Overviews",
+        "AI Mode",
+        "ChatGPT Search",
+        "Perplexity",
+        "llms.txt"
+      ],
+      "title": {
+        "en": "GEO & AI Search Optimization",
+        "zh": "GEO 与 AI 搜索引用优化"
+      },
+      "summary": {
+        "en": "Evidence-backed Generative Engine Optimization (GEO) rules for Google AI Overviews / AI Mode, ChatGPT Search, Perplexity, Claude Search, and Chinese AI search engines.",
+        "zh": "基于实证数据的 GEO 优化技能：覆盖 Google AI Overviews / AI Mode、ChatGPT Search、Perplexity、Claude Search 及中文 AI 搜索引用机制。"
+      },
+      "urls": {
+        "en": "https://seo.beer/skills/geo-ai-search/SKILL.md",
+        "zh": "https://seo.beer/zh/skills/geo-ai-search/SKILL.md",
+        "api": "https://seo.beer/api/v1/skills/geo-ai-search"
+      },
+      "changelog": {
+        "en": {
+          "added": [
+            "Added Google AI Mode 'Dive deeper' citation formatting & UGC/community proof patterns",
+            "Added Chinese AI Search GEO checklist (Baidu AI Search, DeepSeek, Yuanbao, Qwen)"
+          ],
+          "updated": [
+            "Clarified /llms.txt role: agent tool/skill discovery map, not a search ranking factor",
+            "Refined answer-first chunk structure (40–80 word verifiable lead + structured comparison tables)"
+          ],
+          "deprecated": [
+            "Removed myth that adding keyword-stuffed llms-full.txt dumps improves ChatGPT or Google AIO citations"
+          ]
+        },
+        "zh": {
+          "added": [
+            "新增 Google AI Mode “Dive deeper” 引用结构与社区/一手实证加权建议",
+            "新增中文 AI 搜索（百度 AI 搜索、DeepSeek、腾讯元宝、通义千问）GEO 适配清单"
+          ],
+          "updated": [
+            "明确 /llms.txt 仅用于 Agent 工具与 Skills 发现，并非搜索排名因子",
+            "细化 RAG 友好型内容结构（40–80 字首段结论 + 干净 HTML 对比表 + 版本核验时间戳）"
+          ],
+          "deprecated": [
+            "移除“堆砌全站文章到 llms-full.txt 能提升引用率”的伪命题（反而助长整站抄袭）"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "ai-crawlers-policy",
+      "version": "2026.W48",
+      "updatedAt": "2026-11-24",
+      "category": "crawlers",
+      "tags": [
+        "robots.txt",
+        "OAI-SearchBot",
+        "GPTBot",
+        "Claude-SearchBot",
+        "Google-Extended",
+        "Cloudflare WAF"
+      ],
+      "title": {
+        "en": "AI Crawlers & robots.txt Policy",
+        "zh": "AI 爬虫与 robots.txt 治理策略"
+      },
+      "summary": {
+        "en": "Verified 17-bot robots.txt & WAF governance skill separating Search/Citation crawlers from AI model training crawlers and live user fetchers.",
+        "zh": "覆盖 17 个官方核验爬虫 Token 的 robots.txt 与 WAF 治理技能，精准拆分搜索引用、模型训练与用户实时抓取三类流量。"
+      },
+      "urls": {
+        "en": "https://seo.beer/skills/ai-crawlers-policy/SKILL.md",
+        "zh": "https://seo.beer/zh/skills/ai-crawlers-policy/SKILL.md",
+        "api": "https://seo.beer/api/v1/skills/ai-crawlers-policy"
+      },
+      "changelog": {
+        "en": {
+          "added": [
+            "Added Perplexity-User robots.txt non-compliance warning and WAF fallback guidance",
+            "Added Baiduspider optional block for bilingual/Chinese sites"
+          ],
+          "updated": [
+            "Verified all 17 robots.txt tokens against official Google, Bing, OpenAI, Anthropic, Perplexity, Apple, Meta, and Amazon docs",
+            "Linked directly to deterministic MCP tools seobeer_audit_robots_txt and seobeer_generate_robots_txt"
+          ],
+          "deprecated": [
+            "Removed conflated 'block all AI bots' templates that accidentally blocked OAI-SearchBot & Claude-SearchBot"
+          ]
+        },
+        "zh": {
+          "added": [
+            "新增 Perplexity-User 不遵守 robots.txt 的风险提示与 WAF/鉴权兜底建议",
+            "为中英双语站点补充 Baiduspider 可选策略模板"
+          ],
+          "updated": [
+            "全量核验 17 个官方爬虫 Token（Google、Bing、OpenAI、Anthropic、Perplexity、Apple、Meta、Amazon、Baidu）",
+            "直接联动可执行 MCP 工具 seobeer_audit_robots_txt 与 seobeer_generate_robots_txt"
+          ],
+          "deprecated": [
+            "废弃将 OAI-SearchBot / Claude-SearchBot 与训练爬虫一刀切封禁的旧模板"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "search-api-playbook",
+      "version": "2026.W48",
+      "updatedAt": "2026-11-24",
+      "category": "search-api",
+      "tags": [
+        "OpenAI Web Search",
+        "Anthropic Web Search",
+        "Gemini Grounding",
+        "Perplexity Sonar",
+        "Tavily",
+        "Exa"
+      ],
+      "title": {
+        "en": "LLM Search API Playbook",
+        "zh": "大模型 Search API 实战手册"
+      },
+      "summary": {
+        "en": "Up-to-date integration, attribution compliance, cost control, and fallback architecture for OpenAI, Anthropic, Gemini Grounding, Perplexity Sonar, and search APIs.",
+        "zh": "紧跟模型厂商最新 Search API 策略变更：覆盖 OpenAI、Anthropic、Gemini Grounding、Perplexity Sonar 与第三方搜索接口的合规、控本与容灾实践。"
+      },
+      "urls": {
+        "en": "https://seo.beer/skills/search-api-playbook/SKILL.md",
+        "zh": "https://seo.beer/zh/skills/search-api-playbook/SKILL.md",
+        "api": "https://seo.beer/api/v1/skills/search-api-playbook"
+      },
+      "changelog": {
+        "en": {
+          "added": [
+            "Added Anthropic web_search max_uses & allowed_domains/blocked_domains cost-guard pattern",
+            "Added Google Gemini Grounding mandatory Search Suggestions chip (renderedContent) compliance rule"
+          ],
+          "updated": [
+            "Updated OpenAI Responses API web_search context-size tuning (low/medium/high) & url_citation rendering",
+            "Added multi-provider fallback matrix (Native LLM Search vs. Tavily / Exa / Serper)"
+          ],
+          "deprecated": [
+            "Deprecated legacy Chat Completions search-preview workarounds where Responses API web_search is supported"
+          ]
+        },
+        "zh": {
+          "added": [
+            "新增 Anthropic web_search 的 max_uses 与域名过滤控本模式",
+            "补充 Google Gemini Grounding 强制展示搜索建议组件（renderedContent）的合规要点"
+          ],
+          "updated": [
+            "更新 OpenAI Responses API web_search 的 search_context_size 档位调优与 url_citation 渲染规范",
+            "完善原生模型搜索 vs Tavily / Exa / Serper 的选型与降级矩阵"
+          ],
+          "deprecated": [
+            "在已支持 Responses API web_search 的场景中弃用旧版 search-preview 临时绕路方案"
+          ]
+        }
+      }
+    }
+  ]
+}
